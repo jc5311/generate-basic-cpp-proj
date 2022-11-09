@@ -19,7 +19,6 @@ MAKEFILE_STR_TO_REPLACE = "_PROJECT_NAME_"
 
 # Functions ----------------------------------------------------------------------------------------
 def replaceInFile(filename, strToReplace, strToUse):
-
     # Read in the file
     with open(filename, "r") as file:
         filedata = file.read()
