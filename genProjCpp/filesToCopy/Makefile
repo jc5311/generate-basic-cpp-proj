@@ -1,0 +1,8 @@
+_PROJECT_NAME_: _PROJECT_NAME_.o _PROJECT_NAME_.h
+	clang++ -o _PROJECT_NAME_.o _PROJECT_NAME_
+
+_PROJECT_NAME_.o: _PROJECT_NAME_.cpp _PROJECT_NAME_.h
+	clang++ -c _PROJECT_NAME_.cpp
+
+clean:
+	rm *.o _PROJECT_NAME_
