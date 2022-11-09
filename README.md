@@ -1,5 +1,5 @@
 # generate-basic-cpp-proj
-A python script for creating a basic cpp including a .cpp, .h, and makefile.
+A python script for creating a basic c++ project including a .cpp, .h, and makefile.
 
 Install directions:
 * On a Linux machine copy the genProjCpp directory to /opt
